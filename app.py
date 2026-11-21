@@ -20,10 +20,10 @@ def demo():
         <title>Stay Safe!! </title>
         <style>
               
-            body {{
+          body {{
                 font-family: sans-serif;
-                background: #FF0000;
-                color: #BDF2FF;
+                background: #B895B0;
+                color: #DC143C;
                 text-align: center;
                 padding-top: 100px;
             }}
@@ -31,7 +31,7 @@ def demo():
             .box {{
                 max-width: 650px;
                 margin: auto;
-                background: #0000FF;
+                background: #FFE4E1;
                 padding: 40px;
                 border-radius: 15px;
             }}
@@ -42,8 +42,8 @@ def demo():
                 margin: 20px;
             }}
 
-            .warning {{
-                color: #FF0000;
+           .warning {{
+                color: #5C033B;
             }}
         </style>
         
