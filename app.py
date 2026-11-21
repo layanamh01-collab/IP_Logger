@@ -9,7 +9,7 @@ def demo():
     ip = request.remote_addr
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # Save the visit
+    # save the visit
     with open("ip_logs.txt", "a") as file:
         file.write(f"IP: {ip} | Time: {timestamp}\n")
 
@@ -17,12 +17,11 @@ def demo():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Get Caught!! :P</title>
+        <title>Stay Safe!! </title>
         <style>
-                @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
-
+              
             body {{
-                font-family: "Orbitron", sans-serif;
+                font-family: sans-serif;
                 background: #FF0000;
                 color: #BDF2FF;
                 text-align: center;
@@ -57,11 +56,11 @@ def demo():
             <h1>IP Logger</h1>
 
             <p>
-                Your browser connected to my server.
+                Your browser connected to this server
             </p>
 
             <p>
-                The server was able to obtain your IP address >:P
+                The server was able to obtain your IP address
             </p>
 
             <div class="ip">
@@ -69,26 +68,27 @@ def demo():
             </div>
 
             <p class="warning">
-                This is the end of you. MWAHAHAHA >:D
+                Cautious use of the internet is mandatory.
+                Never assume safety simply because your address is publicly available.
+                Its not so easy to obtain but also not difficult with a couple steps. 
+                Being mindful of your internet use can be one step more towards cyber-safety.
             </p>
 
             <hr>
 
             <p>
-                An IP address does not automatically reveal your exact
-                physical location or identity but it does allow for me to know who you are to an extent. PLUS! Most of the time, if I managed to find your IP it means I have a fair bit information on you.
+                An IP address does not automatically reveal your exact physical location or identity but it does allow for people to know who you are to an extent. 
+                Additionally, most of the time, if someone managed to find your IP it means they have a fair bit information on you. This is the social engineering aspect of IP finding.
             </p>
 
             <p>
-                VPNs, proxies, mobile networks and shared networks
-                can change or obscure the address a server observes, however, despite being a layer of security companies, servers and websites can still know your IP. 
+                VPNs, proxies, mobile networks and shared networks can change or obscure the address a server observes, however, despite there being a layer of security, companies, servers and websites can still know your IP address. 
             </p>
             <p>
-            Only Tor and many more can fully anonymise you. Even then though, if the governments go to extremes you can be found!
+            Only Tor and many more can fully anonymise you. Even then, however, if the those whom are searching for you go to extremes, you can be found!
             </p>
             <p>
-            Trust no one ( ͡° ͜ʖ ͡°) and 
-            Sleep with one eye open AHAHAHA XD
+            Be careful with what links you click on! And a repeat of above, always be careful --never assume saftey on the World Wide Web...
             </p>
 
         </div>
